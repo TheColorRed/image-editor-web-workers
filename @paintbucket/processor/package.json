@@ -1,0 +1,11 @@
+{
+  "name": "@paintbucket/processor",
+  "version": "1.0.0",
+  "main": "./src",
+  "dependencies": {
+    "@paintbucket/core": "file:../core/src"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}

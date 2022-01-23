@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "lib": [
+      "DOM",
+      "DOM.Iterable"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "../core/global.d.ts"
+  ],
+  "exclude": []
+}

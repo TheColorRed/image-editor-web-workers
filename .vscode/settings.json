@@ -1,0 +1,8 @@
+{
+  "typescript.format.semicolons": "insert",
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "cSpell.words": [
+    "aldana",
+    "paintbucket"
+  ]
+}

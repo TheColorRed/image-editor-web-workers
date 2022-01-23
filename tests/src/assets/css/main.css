@@ -1,0 +1,34 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.tools {
+  padding: 10px;
+  display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.tools > div {
+  display: flex;
+  flex: 1;
+}
+.tools > div > div:first-child {
+  flex: 0 0 200px;
+}
+.tools > div > div:last-child {
+  display: flex;
+  flex: 1;
+}
+
+input[type='range'] {
+  width: 100%;
+}
+input[type='number'] {
+  width: 80px;
+}

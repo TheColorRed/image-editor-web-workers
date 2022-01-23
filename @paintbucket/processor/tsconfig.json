@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "moduleResolution": "node",
+    "lib": [
+      "WebWorker",
+      "es6",
+      "ScriptHost",
+      "ES2017.SharedMemory"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "../core/global.d.ts"
+  ],
+  "exclude": []
+}
